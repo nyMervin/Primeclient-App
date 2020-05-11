@@ -1,0 +1,15 @@
+rootProject.name = 'PrimeClient'
+include ':react-native-firebase'
+project(':react-native-firebase').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-firebase/android')
+include ':react-native-immersive'
+project(':react-native-immersive').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-immersive/android')
+include ':react-native-zendesk-ichat'
+project(':react-native-zendesk-ichat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-zendesk-ichat/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+include ':@synapsestudios_react-native-zendesk-support'
+project(':@synapsestudios_react-native-zendesk-support').projectDir = new File(rootProject.projectDir, '../node_modules/@synapsestudios/react-native-zendesk-support/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'

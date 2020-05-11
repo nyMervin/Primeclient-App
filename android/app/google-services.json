@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "91663435700",
+    "firebase_url": "https://bank-app-14958.firebaseio.com",
+    "project_id": "bank-app-14958",
+    "storage_bucket": "bank-app-14958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91663435700:android:a9c054fae568093a2594e1",
+        "android_client_info": {
+          "package_name": "com.primeclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91663435700-hcgea8je6j3v87ae17qdik4g61i2sq07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ2zNs3Xv-AcbNJ7gmOKyekU6WutJXRig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91663435700-hcgea8je6j3v87ae17qdik4g61i2sq07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
